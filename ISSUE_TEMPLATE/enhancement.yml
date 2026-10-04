@@ -1,0 +1,17 @@
+name: Enhancement idea
+description: An idea for improving this project.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should it do? Who is it for, and why would it help?
+      placeholder: For example, add a way to export the list as a spreadsheet.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details (optional)
+      description: Where it would appear, examples, or anything else worth remembering.
